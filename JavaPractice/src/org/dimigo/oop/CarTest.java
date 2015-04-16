@@ -2,6 +2,10 @@ package org.dimigo.oop;
 
 public class CarTest {
 	public static void main(String[] args){
+		Car2 car1 = new Car2("현대자동차", "제네시스", "검정색", 225, 50000000);
+		Car2 car2 = new Car2("기아자동차", "K7", "흰색", 246, 40000000);
+		Car2 car3 = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);
+		/*
 		Car car1 = new Car();
 		Car car2 = new Car();
 		Car car3 = new Car();
@@ -23,10 +27,12 @@ public class CarTest {
 		car3.setColor("회색");
 		car3.setMaxSpeed(200);
 		car3.setPrice(38000000);
-		
+		*/
 		System.out.println("<< 자동차 목록 >>");
 		
-		Car car = null;
+		//Car car = null;
+		
+		Car2 car = null;
 		
 		for(int i=1;i<=3;i++) {
 			if(i == 1)
