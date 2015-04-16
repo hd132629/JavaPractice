@@ -15,29 +15,6 @@ public class Car2 {
 		price = newPrice;
 	}
 	
-	public Car2(String newCompany, String newModel, String newColor, int newMaxSpeed){
-		company = newCompany;
-		model = newModel;
-		color = newColor;
-		maxSpeed = newMaxSpeed;
-	}
-	
-	public Car2(String newCompany, String newModel, String newColor){
-		company = newCompany;
-		model = newModel;
-		color = newColor;
-	}
-	
-	public Car2(String newCompany, String newModel){
-		company = newCompany;
-		model = newModel;
-	}
-	
-	
-	public Car2(String newCompany){
-		company = newCompany;
-	}
-	
 	public Car2(){
 	}
 	
