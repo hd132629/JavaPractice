@@ -5,7 +5,7 @@ public class Condition {
 	public static void main(String[] args) {
 		int busPrice = 850, carPrice = 300, etcPrice = 600, add = 0, price =0;
 		
-		String kind="car";
+		String kind="고속버스";
 		int distance=25;
 
 		if(distance % 10 != 0){
@@ -15,13 +15,11 @@ public class Condition {
 		add = add + (distance / 10) - 1;
 		
 		switch (kind){
-		case "bus":
+		case "고속버스":
 			price = busPrice + (add * 300);
-			kind = "고속버스";
 			break;
-		case "car":
+		case "경차":
 			price = carPrice + (add * 200);
-			kind = "경차";
 			break;
 		default:
 			price = etcPrice + (add * 200);
