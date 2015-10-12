@@ -47,7 +47,7 @@ public class MelonGenreChart {
 		dance.add(new Music("커피", "유재환,김예림"));
 		dance.add(new Music("다 잘될거야", "쿨"));
 		
-		map.put("발라드", ballad);
+		map.put("발라드", ballad);  
 		map.put("댄스", dance);
 		
 		System.out.println("-----<<멜론 장르별 차트>>-----");
@@ -71,7 +71,7 @@ public class MelonGenreChart {
 		}
 		System.out.println();
 	}
-	*/
+	*/ 
 	public static void printMap(Map<String, List<Music>> map){
 		for(String key : map.keySet()){
 			int i=1;
