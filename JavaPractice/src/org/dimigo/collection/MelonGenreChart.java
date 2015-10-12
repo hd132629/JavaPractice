@@ -56,12 +56,12 @@ public class MelonGenreChart {
 		
 
 		System.out.println("-----<<발라드 3위 곡 변경>>-----");
-		((ArrayList<Music>)map.get("발라드")).set(2, new Music("지우고 지워도", "차수경"));
+		map.get("발라드").set(2, new Music("지우고 지워도", "차수경"));
 		printMap(map);
 		
 
 		System.out.println("-----<<발라드 1위 곡 삭제>>-----");
-		((ArrayList<Music>)map.get("발라드")).remove(0);
+		map.get("발라드").remove(0);
 		printMap(map);
 	}
 	/*
