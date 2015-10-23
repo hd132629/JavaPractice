@@ -28,7 +28,7 @@ public class SaveImageFromUrl {
 			catch (Exception e){
 				e.printStackTrace();
 			}
-		} 
+		}
 		catch (MalformedURLException e){
 			e.printStackTrace();
 		}
