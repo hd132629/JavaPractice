@@ -33,7 +33,7 @@ import org.apache.http.util.EntityUtils;
  * @version		: 1.0
  */
 public class NaverSearch {
- 
+
 	public static final String NAVER_OPEN_URL = "http://openapi.naver.com/search";
 	public static final String SEARCH_KEY = "f45d2780e74669231a450c8cb3ffc78f";
 	
