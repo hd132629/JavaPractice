@@ -91,7 +91,7 @@ public class NaverSearch {
 	         * 3. 스타워즈: 깨어난 포스 - [해리슨 포드, 마크 해밀, 캐리 피셔, .. ]
 	         ********************************************************/
 
-	        int i = 0;
+	        int i = 1;
 	        String info = "";
 	        for(Movie movie : movieList){
 	        	info += (i++) + ". " + movie.getTitle() + " - " + movie.getActors()+ "\n";
